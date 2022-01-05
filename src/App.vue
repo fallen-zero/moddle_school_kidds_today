@@ -2,7 +2,7 @@
  * @Author       : Zero
  * @Date         : 2022-01-05 10:20:32
  * @LastEditors  : Zero
- * @LastEditTime : 2022-01-05 14:32:54
+ * @LastEditTime : 2022-01-05 15:40:57
  * @FilePath     : /middle_school_kids_today/src/App.vue
 -->
 
@@ -31,6 +31,7 @@ export default {
     height: 100%;
     position: relative;
   }
+  
   .top {
     background: url(./assets/images/WechatIMG2.png) no-repeat;
     background-size: 100% 100%;
@@ -39,6 +40,7 @@ export default {
     position: absolute;
     top: -1.3rem;
     right: 2.5rem;
+
     span {
       color: #a57c50;
       font-weight: bold;
@@ -55,6 +57,7 @@ export default {
 
   .home-center {
     position: relative;
+
     .home-logo {
       background: url(./assets/images/1-2.png) no-repeat;
       background-size: 100% 100%;
@@ -65,6 +68,7 @@ export default {
       left: 50%;
       margin-left: -10.125rem;
     }
+
     .btn {
       display: block;
       width: 6.4rem;
@@ -80,7 +84,4 @@ export default {
     background: url(./assets/images/1-4.png) no-repeat;
     background-size: 100% 100%;
   }
-
-  
-
 </style>
